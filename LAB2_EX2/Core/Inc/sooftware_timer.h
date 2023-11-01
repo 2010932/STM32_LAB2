@@ -1,0 +1,16 @@
+/*
+ * sooftware_timer.h
+ *
+ *  Created on: Oct 6, 2023
+ *      Author: Admin
+ */
+
+#ifndef INC_SOOFTWARE_TIMER_H_
+#define INC_SOOFTWARE_TIMER_H_
+
+extern int timer1_flag, timer2_flag;
+void setTimer1(int duration);
+void setTimer2(int duration);
+void timeRun();
+
+#endif /* INC_SOOFTWARE_TIMER_H_ */
